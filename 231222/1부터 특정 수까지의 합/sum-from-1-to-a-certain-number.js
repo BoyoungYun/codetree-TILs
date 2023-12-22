@@ -3,7 +3,7 @@ function divideTen(N) {
     for(let i=1; i<=N; i++) {
         sum += i;
     }
-    return sum / 10;
+    return parseInt(sum / 10);
 }
 const fs = require('fs');
 const input = fs.readFileSync("/dev/stdin").toString().trim();
